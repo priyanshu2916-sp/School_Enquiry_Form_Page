@@ -93,3 +93,38 @@
         </div>
       </div>
     </section>
+<!-- Admission Enquiry Form Section -->
+    <section id="admissions" class="section-card">
+      <h2 class="section-title">School Admission Enquiry Form</h2>
+      <form action="#" method="get">
+        
+        <div class="form-group">
+          <label for="studentName">Student Full Name:</label>
+          <input type="text" id="studentName" name="studentName" placeholder="e.g. Rahul Kumar" required>
+        </div>
+
+        <div class="form-group">
+          <label for="targetClass">Class Applying For:</label>
+          <select id="targetClass" name="targetClass" required>
+            <option value="">-- Select Class --</option>
+            <option value="Nursery">Nursery / Kindergarten</option>
+            <option value="Primary">Primary (Class 1 to 5)</option>
+            <option value="Middle">Middle (Class 6 to 8)</option>
+            <option value="Secondary">Secondary (Class 9 & 10)</option>
+            <option value="Senior Secondary">Senior Secondary (Class 11 & 12)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="guardianContact">Guardian Contact Number (10 digits):</label>
+          <input type="tel" id="guardianContact" name="guardianContact" placeholder="e.g. 9876543210" pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="userQuery">Any Question? (Optional):</label>
+          <textarea id="userQuery" name="userQuery" rows="3" placeholder="Type your question here..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Enquiry</button>
+      </form>
+    </section>
