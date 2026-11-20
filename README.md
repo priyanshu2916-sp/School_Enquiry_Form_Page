@@ -24,7 +24,7 @@ A responsive, user-friendly landing page and admission enquiry portal built for 
 * **Parents' Feedback Section:** Highlights real testimonials and reviews from parents[cite: 35].
 * **Admission Enquiry Form with HTML5 Validation:** Collects student name, class selection, 10-digit guardian contact number (using `pattern="[0-9]{10}"`), and optional parent queries without JavaScript[cite: 35].
 * **Zero-JS Interactive FAQ Accordion:** Expandable and collapsible Frequently Asked Questions built using native HTML5 `<details>` and `<summary>` elements[cite: 35].
-* **Responsive Design:** Styled with external CSS (`style2.css`) using Flexbox so cards adapt smoothly across desktop and mobile screens[cite: 35].
+* **Responsive Design:** Styled with external CSS (`style.css`) using Flexbox so cards adapt smoothly across desktop and mobile screens[cite: 35].
 
 ---
 
