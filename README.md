@@ -33,5 +33,5 @@ A responsive, user-friendly landing page and admission enquiry portal built for 
 ```text
 School_Enquiry_Form_Page/
 ├── index.html       # Main HTML5 webpage, enquiry form, and FAQ accordion[cite: 35]
-├── style2.css       # External CSS3 stylesheet for layout, colors, and hover effects[cite: 35]
+├── style.css       # External CSS3 stylesheet for layout, colors, and hover effects[cite: 35]
 └── README.md        # Project documentation and setup instructions[cite: 35]
